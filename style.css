@@ -1,8 +1,8 @@
 body{
     margin: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .header{
@@ -73,4 +73,117 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+}
+
+.secsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 128px 85px;
+    gap: 16px;
+}
+
+.secsec h1{
+    font-weight: 800;
+    font-size: 32px;
+    color: #1F2937;
+}
+
+.sec2 div img{
+    width: 125px;
+    height: 125px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+ 
+ .sec2 div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+.sec2{
+    display: flex;
+    gap: 37px;
+    margin-left: 128px;
+    margin-right: 128px;
+}
+
+.thirdsec{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.thirdsec div{
+    display: flex;
+    flex-direction: column;
+    margin: 75px 180px 75px;
+}
+.thirdsec div p{
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.thirdsec div h3{
+    margin-top: 0px;
+    align-self: flex-end;
+}
+
+.fourthsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 128px;
+}
+
+.action{
+    display: flex;
+    background-color: #3882F6;
+    width: 960px;
+    height: 110px;
+    border-radius: 7px;
+    color: white;
+    justify-content: flex-start;
+}
+
+.action div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 45px auto 45px 80px;
+}
+
+.action div h3,
+.action div p{
+    margin: 0;
+}
+
+.signup2{
+    align-self: center;
+    color: #F9FAF8;
+    border:2px solid #F9FAF8;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    margin-right: 80px;
+}
+
+.footer{
+    margin-top: auto;
+    height: 80px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
